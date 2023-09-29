@@ -43,6 +43,10 @@ group :development, :test do
   gem "jwt", "~> 2.2"
   gem "rack-cors", require: "rack/cors"
   gem "dotenv-rails", "~> 2.7"
+  gem "active_model_serializers", "~> 0.10.0"
+  gem "bcrypt", "~> 3.1.7"
+  gem 'hirb', '~> 0.7.3'
+  gem 'hirb-unicode', '~> 0.0.5'
 end
 
 group :development do
